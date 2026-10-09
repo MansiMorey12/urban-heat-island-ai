@@ -1,0 +1,15 @@
+MODEL COMPARISON REPORT
+==================================================
+
+Metric      Random Forest   Logistic Regression 
+Accuracy    1.0000          0.9500              
+Precision   1.0000          0.9516              
+Recall      1.0000          0.9500              
+F1-Score    1.0000          0.9502              
+
+Conclusion: Random Forest outperforms the Logistic Regression
+baseline across all metrics, because Random Forest can model
+non-linear interactions between the 15 input features through
+its ensemble of 200 decision trees, whereas Logistic Regression
+is restricted to linear decision boundaries. Random Forest was
+therefore selected as the deployed model for this dashboard.
